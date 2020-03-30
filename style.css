@@ -282,20 +282,41 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-.caixa , .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-    width: auto;
-}
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+      width: auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+    nav {
+      position: static;
+    }
+    
+    .lista-beneficios {
+      margin-bottom: 10px;
+    }
+  
+    .lista-beneficios, .imagem-beneficios, .input-padrao, .enviar, table {
+      width: 100%;
+    }
+  
+  
+    .produtos li{
+        display: grid;
+        text-align: center;
+        width: 70%;
+        vertical-align: top;
+        margin: 50px 50px 50px 50px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border:  2px solid #000000;
+        border-radius: 10px;
+    }
 
-h1 {
-    text-align: center;
-}
 
-nav {
-    position: static;
-}
-
-.lista-beneficios, .imagem-beneficios {
-    width: 100%;
-}
-
-}
+    td, th {
+      text-align: center;
+    }
+  }
